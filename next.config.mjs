@@ -1,9 +1,13 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   output: 'export',
+
+  basePath: '/MohamedSinanP',
+
   images: {
-    unoptimized: true
-  }
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
