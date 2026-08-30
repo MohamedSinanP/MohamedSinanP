@@ -5,6 +5,8 @@ const nextConfig = {
 
   basePath: '/MohamedSinanP',
 
+  assetPrefix: '/MohamedSinanP/',
+
   images: {
     unoptimized: true,
   },
