@@ -33,8 +33,10 @@ const AboutSection = () => {
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 400 400"
     className="w-full max-w-[220px] h-auto sm:max-w-[280px] md:max-w-[320px] lg:max-w-[380px]"
+    role="img"
+    aria-label="Developer illustration"
   >
-    {/* Background Circle */}
+    {/* Background */}
     <circle
       cx="200"
       cy="200"
@@ -45,23 +47,37 @@ const AboutSection = () => {
       opacity="0.9"
     />
 
-    {/* Decorative code symbols */}
+    {/* Decorative glow */}
+    <circle
+      cx="200"
+      cy="200"
+      r="135"
+      fill="none"
+      stroke="#38BDF8"
+      strokeWidth="1"
+      opacity="0.2"
+    />
+
+    {/* Opening code bracket */}
     <text
-      x="65"
-      y="180"
+      x="55"
+      y="185"
       fill="#38BDF8"
-      fontSize="55"
+      fontSize="60"
       fontWeight="bold"
+      fontFamily="monospace"
     >
       {'<'}
     </text>
 
+    {/* Closing code bracket */}
     <text
-      x="310"
-      y="180"
+      x="275"
+      y="185"
       fill="#38BDF8"
-      fontSize="55"
+      fontSize="60"
       fontWeight="bold"
+      fontFamily="monospace"
     >
       {'/>'}
     </text>
@@ -69,49 +85,73 @@ const AboutSection = () => {
     {/* Developer head */}
     <circle
       cx="200"
-      cy="155"
-      r="55"
+      cy="145"
+      r="52"
       fill="#0B0F19"
       stroke="#38BDF8"
       strokeWidth="4"
-    />
-
-    {/* Developer body */}
-    <path
-      d="M105 310c10-70 48-105 95-105s85 35 95 105"
-      fill="#0B0F19"
-      stroke="#38BDF8"
-      strokeWidth="4"
-      strokeLinecap="round"
     />
 
     {/* Eyes */}
-    <circle cx="180" cy="150" r="5" fill="#38BDF8" />
-    <circle cx="220" cy="150" r="5" fill="#38BDF8" />
+    <circle cx="182" cy="140" r="5" fill="#38BDF8" />
+    <circle cx="218" cy="140" r="5" fill="#38BDF8" />
 
     {/* Smile */}
     <path
-      d="M180 175c12 10 28 10 40 0"
+      d="M180 165 Q200 180 220 165"
       fill="none"
       stroke="#38BDF8"
       strokeWidth="4"
       strokeLinecap="round"
     />
 
+    {/* Developer body */}
+    <path
+      d="M105 315c10-72 48-108 95-108s85 36 95 108"
+      fill="#0B0F19"
+      stroke="#38BDF8"
+      strokeWidth="4"
+      strokeLinecap="round"
+    />
+
+    {/* Code window */}
+    <rect
+      x="145"
+      y="235"
+      width="110"
+      height="65"
+      rx="8"
+      fill="#161B26"
+      stroke="#38BDF8"
+      strokeWidth="2"
+    />
+
     {/* Code lines */}
     <path
-      d="M145 265h110"
+      d="M160 255h35"
+      stroke="#38BDF8"
+      strokeWidth="4"
+      strokeLinecap="round"
+    />
+
+    <path
+      d="M160 270h75"
       stroke="#94A3B8"
       strokeWidth="4"
       strokeLinecap="round"
     />
 
     <path
-      d="M165 280h70"
+      d="M160 285h55"
       stroke="#94A3B8"
       strokeWidth="4"
       strokeLinecap="round"
     />
+
+    {/* Code dots */}
+    <circle cx="160" cy="245" r="3" fill="#38BDF8" />
+    <circle cx="170" cy="245" r="3" fill="#38BDF8" opacity="0.7" />
+    <circle cx="180" cy="245" r="3" fill="#38BDF8" opacity="0.4" />
   </svg>
 </div>
 

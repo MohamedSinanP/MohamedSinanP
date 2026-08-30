@@ -1,8 +1,6 @@
-import React from 'react';
-
 const TextHighlight = ({ children }) => {
   return (
-    <span className='text-transparent font-extrabold md:text-2xl bg-clip-text bg-gradient-to-r text-[#38BDF8] '>
+    <span className="font-extrabold md:text-2xl bg-gradient-to-r from-[#38BDF8] to-[#60A5FA] bg-clip-text text-transparent">
       {children}
     </span>
   );
