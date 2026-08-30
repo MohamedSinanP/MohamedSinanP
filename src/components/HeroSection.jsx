@@ -70,7 +70,7 @@ const HeroSection = () => {
         >
           <h1 className="mb-2 lg:mb-4 font-extrabold">
   <span className="text-[#38BDF8] text-3xl md:text-4xl lg:text-5xl">
-    Hi there <span className="text-[#FFFFFF]">👋</span> I'm
+    Hi there <span className="text-[#FFFFFF]">👋</span> I&apos;m
   </span>
 
   <br />

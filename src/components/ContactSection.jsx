@@ -62,7 +62,7 @@ const ContactSection = () => {
       id="contact"
       className="bg-[#0B0F19] text-[#FFFFFF] scroll-mt-[80px] min-h-[60vh] mt-20"
     >
-      <SectionHead>Let's Connect</SectionHead>
+      <SectionHead>Let&apos;s Connect</SectionHead>
 
       <div className="mt-8 px-4">
         <div
