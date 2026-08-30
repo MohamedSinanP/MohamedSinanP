@@ -3,10 +3,6 @@
 const nextConfig = {
   output: 'export',
 
-  basePath: '/MohamedSinanP',
-
-  assetPrefix: '/MohamedSinanP/',
-
   images: {
     unoptimized: true,
   },
