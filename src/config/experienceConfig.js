@@ -15,9 +15,9 @@ export const experiences = [
     isCurrent: false,
 
     description: [
-      'Developed a multi-tenant ERP application using orgId-based data isolation, enabling multiple organizations to securely manage their operations within a single application.',
+      'Developed a multi-tenant business operations management platform using orgId-based data isolation, enabling multiple organizations to securely manage their business operations within a single application.',
 
-      'Built and contributed to core ERP modules including task management, appointments, meeting scheduling, event management, project management, renewals, news, and related business workflows.',
+      'Built and contributed to core operational modules, including task management, appointments, meeting scheduling, event management, project management, renewals, news, and other business workflows.',
 
       'Implemented BullMQ-based background job processing for email and WhatsApp services, moving heavy operations outside the main request-response cycle and improving application responsiveness.',
 

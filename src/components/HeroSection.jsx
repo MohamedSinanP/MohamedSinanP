@@ -43,7 +43,7 @@ const HeroSection = () => {
               width={300}
               src="/assets/me.webp"
               alt="Mohamed Sinan P"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain size-[250px] md:size-[300px]"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain size-[250px] md:size-[350px]"
             />
           </div>
         </motion.div>
